@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HELLO</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:500" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4d87cb6c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+    
+<body>
+
+    <div class="container">
+        <div class="signup">
+                
+                <div class="signup-inner">
+                        
+                        <div class="logo-container">
+                            <img class="logo" src="images/Logo-ConecAGROS.png" alt="logo"/>
+                        </div>
+                        <h1 style="font-size: 36px;">
+                            <span class="light-gray">Bienvenido</span> 
+                            <span class="dark-gray">de nuevo.</span>
+                        </h1>
+                    
+                    <p class="light-gray sub-heading" >Inicie sesión
+                        en su cuenta.</p>
+            
+                        <div class="signup-form">
+                            <form>
+                                <div class="controls">
+                                    <div class="input">
+                                            <label for="email">Tu Usuario</label>
+                                            <input type="text" id="email" >
+                                    </div>
+                                    <div class="input">
+                                            <label for="password">Tu Password</label>
+                                            <input type="password" name="" id="">
+                                    </div>
+                                </div>
+                                    
+                                <div class="remember-me">
+                                    <input type="checkbox"> <span class="light-gray" >Remember me </span>
+                                    <a href="#" class="pull-right" > Forgot password</a>
+                                </div> 
+                                
+                                <button type="submit" class="button button-black">Login</button>
+                                <button class="button button-gray">Sign up</button>
+                            </form>
+
+                            <div class="terms-and-conditions">
+                                <!--
+                                   <p class="light-gray terms-and-conditions"  >By signing up, you agree to Aroma's</p>
+                                <p class="light-gray"> 
+                                    <a href="#">Terms and Conditions </a> & <a href="#">Privacy Policy</a>
+                                </p>  
+                                -->
+                            </div>
+
+                        </div>
+                    </div>
+        </div>
+
+        <div class="slide-show">
+
+            <!--
+            <div class="menu">
+                <ul>
+                    <li><a href="#" target="_blank" class="boton_personalizado" rel="noopener noreferrer" >HOME</a></li>
+                    <li><a href="#" target="_blank" class="boton_personalizado" rel="noopener noreferrer" >HOME</a></li>
+                    <li><a href="#" target="_blank" class="boton_personalizado" rel="noopener noreferrer" >HOME</a></li>
+                </ul>
+            </div>
+        -->
+        <div id="contenedor">
+            <nav>
+                <ul>
+                    <li><a href="web/encuesta_agros.php" target="_blank">ENCUESTA</a></li>
+                    <li><a href="#">QUEJAS</a></li>
+                    <!---
+                    <li>
+                        <a href="#" id="referencia">Menu 3 #</a>
+                        <ul id="popper">
+                            <li><a href="#">Submenu 1</a></li>
+                            <li><a href="#">Submenu 2</a></li>
+                            <li><a href="#">Submenu 3</a></li>
+                            <li><a href="#">Submenu 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Menu 4</a></li>
+                    <li><a href="#">Menu 5</a></li>
+                    <li><a href="#">Menu 6</a></li>
+                -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </div>
+    
+</body>
+<script src="./popper.min.js"></script>
+    <script>
+        var referencia = document.getElementById("referencia");
+        var popper = document.getElementById("popper");
+        new Popper(referencia, popper, {
+            placement: 'bottom-start'
+        });
+    </script>
+
+<script src="25dbfcb280.js" crossorigin="anonymous"></script>
+</html>
